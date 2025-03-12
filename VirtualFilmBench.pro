@@ -47,7 +47,7 @@ QT += opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Virtual-Bench
+TARGET = VirtualFilmBench
 TEMPLATE = app
 
 # The version of Virtual Bench
