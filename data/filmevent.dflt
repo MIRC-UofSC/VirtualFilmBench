@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<event-attribute-values>
+  <attribute>
+    <name>SpliceType</name>
+    <value default="true">Cement</value>
+    <value>Tape</value>
+    <value>Printed</value>
+    <value>Ultrasonic</value>
+  </attribute>
+  <attribute>
+    <name>DamageType</name>
+    <value default="true">Burn</value>
+    <value>Cut</value>
+    <value>Sprocket Tear</value>
+  </attribute>
+  <attribute>
+    <name>EdgeDetails</name>
+    <value default="true">Word</value>
+    <value>Symbol</value>
+    <value>Number</value>
+    <value>Camera ID</value>
+    <value>Timing Notch</value>
+    <value>Mark</value>
+  </attribute>
+  <attribute>
+    <name>CreatorContext</name>
+    <value>UnivSouthCarolina</value>
+    <value>Video &amp; Film Solutions</value>
+</event-attribute-values>

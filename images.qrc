@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>logos.png</file>
+        <file>virtualbench256.png</file>
+    </qresource>
+</RCC>
