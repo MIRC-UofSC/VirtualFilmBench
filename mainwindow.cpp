@@ -3268,25 +3268,27 @@ void MainWindow::on_actionAcknowledgements_triggered()
 
 void MainWindow::on_actionAbout_triggered()
 {
-    QMessageBox::information(NULL,
-                             QString("Virtual Bench Beta ")+QString(APP_VERSION_STR),
-                             "Virtual Bench is an open-source software that enables human and "
-                             "machine annotation of scanned motion-picture films. "
-                             "\n\n"
-                             "Virtual Bench is prdocued at at the University of South Carolina by a team comprised "
-                             "of faculty and staff from the University Libraries' Moving "
-                             "Image Research Collections (MIRC), Research Computing, and the College of Engineering "
-                             "and Computing's Computer Vision Lab, with "
-                             "contributions from Thomas Aschenbach (Video & Film Solutions). "
-                             "\n\n"
-                             "Project funding comes from the Preservation and Access Division "
-                             "of the National Endowment for the Humanities. Virtual Bench is "
-                             "available through an open-source licensing agreement. The "
-                             "complete terms are available in the Virtual Bench Documentation."
-                             "\n\n"
-                             "This software uses libraries from the FFmpeg project under "
-                             "the GPLv2.0."
-                             );
+    QMessageBox::information(
+        NULL,
+        QString("Virtual Film Bench ")+QString(APP_VERSION_STR),
+        "Virtual Film Bench is an open-source software that enables human and "
+        "machine annotation of scanned motion-picture films. "
+        "\n\n"
+        "Virtual Film Bench is prdocued at the University of South Carolina by "
+        "a team comprised of faculty and staff from the University Libraries' "
+        "Moving Image Research Collections (MIRC), Research Computing, and the "
+        "Molinaroli College of Engineering and Computing's Computer Vision"
+        "Lab, with contributions from Thomas Aschenbach (Video & Film "
+        "Solutions)."
+        "\n\n"
+        "Project funding comes from the Preservation and Access Division of "
+        "the National Endowment for the Humanities. Virtual Film Bench is "
+        "available through an open-source licensing agreement. The "
+        "complete terms are available in the Virtual Film Bench Documentation."
+        "\n\n"
+        "This software uses libraries from the FFmpeg project under "
+        "the GPLv2.0."
+        );
 }
 
 
@@ -3296,7 +3298,7 @@ void MainWindow::DeleteTempSoundFile(void)
     {
         ExtractedSound sample;
         ExtractedSound emptySound;
-        for(int i=0; i<samplesPlayed.size(); ++i)
+        for(unsigned int i=0; i<samplesPlayed.size(); ++i)
         {
             sample = samplesPlayed[i];
             if(sample.sound != NULL)

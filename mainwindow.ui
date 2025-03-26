@@ -1587,8 +1587,8 @@
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuView"/>
-   <addaction name="menuHelp"/>
    <addaction name="menuFilm"/>
+   <addaction name="menuHelp"/>
   </widget>
   <action name="actionAcknowledgements">
    <property name="checkable">
